@@ -1,8 +1,9 @@
 /* this function switches content in the terminal when a nav item is clicked */
 
 $(document).ready(function(){
+  $("#what").hide();
   $(".changed:nth-child(1)").on("click", function(){
-    alert("WHAT");
+    $("#what").show();
   });
   $(".changed:nth-child(2)").on("click", function(){
     alert("WHY");
