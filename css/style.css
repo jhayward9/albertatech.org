@@ -3,13 +3,22 @@ html body {
     font-family: 'TheGoodMonolith', sans-serif;
 }
 
-#navbarNav > ul {
-    font-size: 26px;
+#navbarSupportedContent > ul {
+    font-size: 22px;
     -webkit-text-stroke-width: 2px;
 }
 
-#navbarNav > ul > li > a {
+#navbarSupportedContent > ul > li > a {
     color: #fff;
+}
+
+#navbarSupportedContent > ul > li > a:hover {
+  color: gold;
+}
+
+body > header > nav > div > div > div.col-md-6 > div > span {
+  position: relative;
+  top: 25px;
 }
 
 header a.navbar-brand:hover {
@@ -20,8 +29,8 @@ nav {
     border-bottom: 3px solid #fff;
 }
 
-header .navbar-brand {
-    font-size: 34px;
+body > header > nav > div > div > div.col-md-6 > div > span {
+    font-size: 1.75em;
     -webkit-text-stroke-width: 2px;
     color: #fff;
 }
@@ -36,8 +45,8 @@ footer  {
     border-top: 2px solid #fff;
 }
 
-body > header > nav > div > a > img {
-    width: 4em;
+body > header > nav > div > div > div:nth-child(1) > div > a > img {
+    width: 6.5em;
     border: 2px solid #000;
 }
 
